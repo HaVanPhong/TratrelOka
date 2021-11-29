@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_trangChu"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="TRANG CHỦ" />
+    <item
+        android:id="@+id/action_xe"
+        android:icon="@drawable/ic_baseline_directions_car_24"
+        android:title="XE ĐÓN" />
+    <item
+        android:id="@+id/action_lich"
+        android:icon="@drawable/ic_baseline_schedule_24"
+        android:title="NHẮC LỊCH" />
+
+</menu>

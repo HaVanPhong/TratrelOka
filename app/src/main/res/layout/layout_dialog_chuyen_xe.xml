@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/anhnui"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvDialogXeBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/ic_baseline_keyboard_backspace_24"
+        android:drawableTint="@color/white"
+        android:paddingLeft="10dp"
+        android:text=" Quay lại"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvKhongCoXe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:textColor="#F10A0A"
+        android:text="Không có chuyến xe nào được tìm thấy"/>
+
+    <TextView
+        android:id="@+id/tvLoading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:text="Tìm kiếm xe... Quá trình có thể mất vài phút!"
+        android:textColor="#04428E"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:id="@+id/revChuyenXe"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

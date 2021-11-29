@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_bg_item_xe"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_electric_car_24"
+        app:tint="#2196F3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvNoiXe_Di_Den_item_tk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bắc Giang - Tân Sơn Nhất"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvTienXe_tk"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:layout_height="wrap_content"
+            android:textColor="#2196F3"
+            android:text="30 000 VND"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvSoGhe_tk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/ic_baseline_chair_alt_24"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnDatXe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_btn_gg"
+            android:text="Đặt xe"/>
+
+
+    </LinearLayout>
+</LinearLayout>
